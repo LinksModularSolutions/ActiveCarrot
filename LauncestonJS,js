@@ -1,0 +1,2 @@
+$('h2:contains("Book Online")').html("Pool Availability");
+$('h2:contains("Facility Booking -")').html("Pool Availability");
