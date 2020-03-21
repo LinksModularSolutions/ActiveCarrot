@@ -1,4 +1,5 @@
-function myFunction() {
+<script>
+  function myFunction() {
   var x = document.getElementById("floatright");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -6,3 +7,4 @@ function myFunction() {
     x.style.width = "50%";
   }
 }
+</script>
