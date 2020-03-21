@@ -4,7 +4,7 @@ viewPortTag.name = "viewport";
 viewPortTag.content = "width=device-width, initial-scale=1";
 document.getElementsByTagName('head')[0].appendChild(viewPortTag);
 
-
+<script>
   function myFunction() {
   var x = document.getElementById("floatright");
   if (x.style.display === "none") {
@@ -13,4 +13,6 @@ document.getElementsByTagName('head')[0].appendChild(viewPortTag);
     x.style.width = "50%";
   }
 }
+
+</script>
 
