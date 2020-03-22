@@ -7,9 +7,8 @@ $( "#rp > label, #rp_container" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
-
 	
-	/*HIDE CHECK BOX FROM ADD TO CART SCREEN*/
+/*HIDE CHECK BOX FROM ADD TO CART SCREEN*/
   var pages = [ 
     "https://secure.activecarrot.com/customer/class/add_to_cart_new_student/"
 ];
@@ -37,8 +36,6 @@ $( "#classes_grid_view > table:nth-child(1) > thead > tr > th" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
-
-document.getElementById("checkout").innerHTML = "Proceed to checkout";
 
 
 	
