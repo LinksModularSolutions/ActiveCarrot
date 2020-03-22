@@ -36,6 +36,14 @@ $( "#classes_grid_view > table:nth-child(1) > thead > tr > th" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
+  var pages = [ 
+    "https://secure.activecarrot.com/customer/class/add_to_cart_new_student/"
+];
+
+$( "#visit_passes_for_sale > h2" ).toggle(
+    $.inArray( location.pathname, pages ) >= 0
+);
+
 document.getElementById("checkout").innerHTML.text = "Proceed to checkout";
 
 	
