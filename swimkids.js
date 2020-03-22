@@ -44,14 +44,16 @@ $( "#visit_passes_for_sale > h2" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
-document.getElementById("checkout").innerHTML.text = "Proceed to checkout";
-
 	
 /*HIDE RED DELETE BUTTON FROM CHECKOUT*/
   var pages = [ 
     "https://secure.activecarrot.com/customer/class/checkout"
 ];
 
-$( "#classes_grid_view > table:nth-child(3) > tbody > tr > td:nth-child(9)" ).toggle(
+$( "#classes_grid_view > table:nth-child(3) > tbody > tr > td:nth-child(9) > a > img" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
+
+
+(document.getElementById("checkout").innerHTML.text = "Proceed to checkout");
+
