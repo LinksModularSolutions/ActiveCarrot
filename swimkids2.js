@@ -55,4 +55,4 @@ $( "#classes_grid_view > table:nth-child(3) > tbody > tr > td:nth-child(9) > a" 
 );
 
 
-(document.getElementById("checkout").innerHTML.text = "Proceed to checkout");
+document.getElementById("checkout").innerHTML.text = "Proceed to checkout";
