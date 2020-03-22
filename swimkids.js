@@ -36,7 +36,7 @@ $( "#classes_grid_view > table:nth-child(1) > thead > tr > th" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
-
+document.getElementById("checkout").innerHTML.text = "Proceed to checkout";
 
 	
 /*HIDE RED DELETE BUTTON FROM CHECKOUT*/
