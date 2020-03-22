@@ -50,7 +50,7 @@ $( "#visit_passes_for_sale > h2" ).toggle(
     "https://secure.activecarrot.com/customer/class/checkout"
 ];
 
-$( "#classes_grid_view > table:nth-child(3) > tbody > tr > td:nth-child(9) > a > img" ).toggle(
+$( "#classes_grid_view > table:nth-child(3) > tbody > tr > td:nth-child(9) > a" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
