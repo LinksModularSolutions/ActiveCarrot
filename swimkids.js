@@ -44,6 +44,6 @@ document.getElementById("checkout").innerHTML.text = "Proceed to checkout";
     "https://secure.activecarrot.com/customer/class/checkout"
 ];
 
-$( "#classes_grid_view > table> tbody > tr > td > a " ).toggle(
+$( "#classes_grid_view > table:nth-child(3) > tbody > tr > td:nth-child(9)" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
