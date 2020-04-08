@@ -1,4 +1,8 @@
-if (location.pathname.indexOf('customer/dashboard') === -1) {
+if (location.pathname.indexOf('customer/dashboard',
+                              'customer/profile',
+                              'customer/account',
+                              'customer/contract/',
+                              'customer/class/') === -1) {
   var bookOnline = document.getElementById("title_nav").getElementsByClassName("page_heading")[0];
   bookOnline.innerHTML = "Pool Availability";
   
