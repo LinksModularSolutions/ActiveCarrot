@@ -1,6 +1,6 @@
 if (location.pathname.indexOf('customer/dashboard') === -1) {
   var bookOnline = document.getElementById("title_nav").getElementsByClassName("page_heading")[0];
-  bookOnline.innerHTML = "Pool Availability";
+  bookOnline.innerHTML = "Pool";
 }
 
   
