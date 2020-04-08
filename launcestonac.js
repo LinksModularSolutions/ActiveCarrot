@@ -1,11 +1,8 @@
-var pages = [ 
-    "https://secure.activecarrot.com/customer/booking/facility_read_only/1529",
-  "https://secure.activecarrot.com/customer/booking/facility_read_only/",
-];
-
+if (location.pathname.indexOf('customer/dashboard') === -1) {
   var bookOnline = document.getElementById("title_nav").getElementsByClassName("page_heading")[0];
-bookOnline.innerHTML = "Pool Availability";
-
-var facilityBooking = document.getElementById("main_content").getElementsByClassName("three_quarters")[0].getElementsByTagName("H2")[0];
-facilityBooking.innerHTML = facilityBooking.innerHTML.replace("Facility Booking", "Pool Availbility");
+  bookOnline.innerHTML = "Pool Availability";
+  
+  var facilityBooking = document.getElementById("main_content").getElementsByClassName("three_quarters")[0].getElementsByTagName("H2")[0];
+  facilityBooking.innerHTML = facilityBooking.innerHTML.replace("Facility Booking", "Pool Availbility");
+}
 
