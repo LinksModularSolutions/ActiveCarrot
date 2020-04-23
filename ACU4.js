@@ -32,15 +32,7 @@ var pages = [
 ];
 
 /*MELBOURNE LOGIN BUTTON */
-var pages = [ 
-    "https://melbournesport.acu.edu.au/public/contract/application/",
-    "https://secure.activecarrot.com/public/contract/application/",
-];
-$( "#loginpagelink" ).toggle(
-    $.inArray( location.pathname, pages ) <= 0
-);
-
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -49,7 +41,7 @@ var pages = [
     "https://secure.activecarrot.com/public/session/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -58,7 +50,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/privacy_policy/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -67,7 +59,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/contact_us/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -76,7 +68,7 @@ var pages = [
     "https://secure.activecarrot.com/public/localstore/products//",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -85,7 +77,7 @@ var pages = [
     "https://secure.activecarrot.com/public/sitemap/endpoints/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -118,7 +110,7 @@ $( ".sso_legal_text" ).toggle(
 );
 
 /* BRISBANE LOGIN BUTTON */
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -127,7 +119,7 @@ var pages = [
     "https://secure.activecarrot.com/public/session/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -136,7 +128,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/privacy_policy/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -145,7 +137,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/contact_us/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -154,7 +146,7 @@ var pages = [
     "https://secure.activecarrot.com/public/localstore/products//",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -163,7 +155,7 @@ var pages = [
     "https://secure.activecarrot.com/public/sitemap/endpoints/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -196,7 +188,7 @@ $( ".sso_legal_text" ).toggle(
 );
 
 /* SYDNEY LOGIN BUTTON */
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -205,7 +197,7 @@ var pages = [
     "https://secure.activecarrot.com/public/session/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -214,7 +206,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/privacy_policy/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -223,7 +215,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/contact_us/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -232,7 +224,7 @@ var pages = [
     "https://secure.activecarrot.com/public/localstore/products//",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -241,7 +233,7 @@ var pages = [
     "https://secure.activecarrot.com/public/sitemap/endpoints/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -275,7 +267,7 @@ $( ".sso_legal_text" ).toggle(
 );
 
 /* STRATHFIELD LOGIN BUTTON */
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -284,7 +276,7 @@ var pages = [
     "https://secure.activecarrot.com/public/session/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -293,7 +285,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/privacy_policy/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -302,7 +294,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/contact_us/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -311,7 +303,7 @@ var pages = [
     "https://secure.activecarrot.com/public/localstore/products//",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
@@ -320,6 +312,6 @@ var pages = [
     "https://secure.activecarrot.com/public/sitemap/endpoints/",
 ];
 
-$( "#loginpagelink" ).toggle(
+$( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
