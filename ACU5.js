@@ -37,6 +37,14 @@ $( ".loginpagelink" ).toggle(
 );
 
 var pages = [ 
+    "https://melbournesport.acu.edu.au/public/contract/application/",
+    "https://secure.activecarrot.com/public/contract/application/",
+];
+$( ".loginpagelink" ).toggle(
+    $.inArray( location.pathname, pages ) <= 0
+);
+
+var pages = [ 
     "https://melbournesport.acu.edu.au/public/session/",
     "https://secure.activecarrot.com/public/session/",
 ];
