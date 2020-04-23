@@ -26,12 +26,12 @@ $( ".sso_legal_text" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
 
+/*MELBOURNE LOGIN BUTTON */
 var pages = [ 
     "https://melbournesport.acu.edu.au/public/facility/",
     "https://secure.activecarrot.com/public/facility/"
 ];
 
-/*MELBOURNE LOGIN BUTTON */
 $( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
@@ -41,7 +41,7 @@ var pages = [
     "https://secure.activecarrot.com/public/contract/application/",
 ];
 $( ".loginpagelink" ).toggle(
-    $.inArray( location.pathname, pages ) <= 0
+    $.inArray( location.pathname, pages ) <= 1
 );
 
 var pages = [ 
@@ -90,6 +90,13 @@ $( ".loginpagelink" ).toggle(
 );
 
 /*BRISBANE SPORT*/
+var pages = [ 
+    "https://brisbanesport.acu.edu.au/public/contract/application/",
+    "https://secure.activecarrot.com/public/contract/application/",
+];
+$( ".loginpagelink" ).toggle(
+    $.inArray( location.pathname, pages ) <= 1
+);
 var pages = [ 
     "/https://brisbanesport.acu.edu.au/public/session/",
     "https://secure.activecarrot.com/public/session/"
@@ -275,6 +282,13 @@ $( ".sso_legal_text" ).toggle(
 );
 
 /* STRATHFIELD LOGIN BUTTON */
+var pages = [ 
+    "https://strathfieldsport.acu.edu.au/public/contract/application/",
+    "https://secure.activecarrot.com/public/contract/application/",
+];
+$( ".loginpagelink" ).toggle(
+    $.inArray( location.pathname, pages ) <= 1
+);
 $( ".loginpagelink" ).toggle(
     $.inArray( location.pathname, pages ) >= 0
 );
