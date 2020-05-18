@@ -8,7 +8,7 @@
 
 
 // adding meta tag to header
-var viewPortTag = document.createElement('meta');
-viewPortTag.name = "robots";
-viewPortTag.content = "noindex";
-document.getElementsByTagName('head')[0].appendChild(viewPortTag);
+var metaTag = document.createElement('meta');
+metaTag.name = "robots";
+metaTag.content = "noindex";
+document.getElementsByTagName('head')[0].appendChild(metaTag);
