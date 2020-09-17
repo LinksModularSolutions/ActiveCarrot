@@ -1,0 +1,642 @@
+/*DEMO Customer Portal*/
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase !important;
+    text-shadow: none !important;
+    box-shadow: none;
+}
+
+#main {
+    display: block;
+    width: 90vw !important;
+    padding: 0px;
+        padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0 auto !important;
+}
+
+body {
+     display: block !important;
+    top: 0px;
+    left: 0px;
+    width: 90vw !important;
+        padding-left: 5vw;
+    padding-right: 5vw;
+    height: auto;
+    background: #dce2e5;
+    margin: 0 auto !important;
+}
+
+#header {
+    position: absolute;
+    display: block !important;
+    background: #dce2e5;
+    padding: 0px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0 auto !important;
+    width: 90vw !important;
+    height: 150px;
+    border: 0px;
+    left: 0.5px;
+}
+
+
+#header_info {
+    position: absolute;
+    display: block !important;
+    width: 90vw;
+    background: url('https://secure.activecarrot.com/media/dynamic/static_images/709/LinksLogo.png') no-repeat left;
+    background-size: 15em;
+    background-color: #FFF;
+    height: 200px;
+    max-height: 135px;
+    margin: 0 auto !important;
+    padding: 0px;
+    border: 0px;
+}
+
+#logo {
+    display: none;
+}
+
+#main_content > div:nth-child(1) {
+    position: absolute;
+    display: block;
+    top: -155px;
+    right: 10px;
+    width: 50vw;
+    height: 90px;
+    background: #FFF;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 2.05em !important;
+    z-index: 100000;
+}
+
+#main_content > div:nth-child(1) > p {
+    font-size: 1.5em !important;
+    font-weight: 500;
+    color: #384a54 !important;
+}
+
+/* NAV BAR & DROP DOWNS */
+
+#top_nav {
+    position: relative;
+    top: 125px;
+    width: 90vw;
+    height: 50px;
+    border: 0px;
+    padding: 0px;
+    margin: 0 auto;
+    z-index: 15000;
+    background: #eeeeee;
+    box-shadow: 0px 5px 10px #9E9E9E;
+    font-size: 1.0em;
+}
+
+
+ul.dropdown li,
+ul.dropdown ul,
+ul.dropdown ul li {
+    width: 15vw;
+    height: 50px;
+    border: 0px;
+    background: #eeeeee;
+    line-height: 50px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+ul.dropdown ul li {
+    font-size: 0.9em !important;
+}
+
+ul.dropdown ul li a {
+    border-right: none;
+    width: 15vw;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+    background: #eeeeee;
+    border: 0px solid #cfcbcb;
+    z-index: 100000;
+    position: relative;
+}
+
+ul.dropdown li a {
+    border: 0px;
+    font-size: 1.0em;
+}
+
+#nav_home > img, #nav_myprofile > img, #nav_buyonline > img, #nav_bookonline > img, #nav_classes > img, #nav_logout > img {
+    display: none !important;
+}
+
+#top_nav > ul > li:nth-child(1) > ul > li:nth-child(1),
+#top_nav > ul > li:nth-child(1) > ul {
+    display: none !important;
+}
+
+#nav_home:hover,
+#nav_myprofile:hover,
+ul.dropdown li a:hover {
+    background: #778f9b;
+    transition: all ease 0.4s;
+    color: #FFF !important;
+}
+
+#main_content {
+    position: absolute;
+    top: 200px;
+    left: 5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 90.1vw;
+    padding: 0px !important;
+    background: #dce2e5;
+    z-index: 10000;
+    overflow: visible;
+}
+
+h2 {
+    color: #868585;
+    font-size: 1.3em;
+}
+
+#title_nav {
+    display: none !important;
+}
+
+/* MY PROFILE SITE HEADING + PROFILE PIC + CUSTOMER ID */
+#dashboard_my_profile_border {
+    display: none;
+}
+
+.dashboard_profile_nav {
+    display: none;
+}
+
+
+#my_profile_left_content {
+    position: absolute !important;
+    display: block !important;
+    top: -185px !important;
+    right: 10px !important;
+    float: right !important;
+    width: 90vw !important;
+    height: 150px !important;
+    padding: 0px !important;
+    padding-left: 2px !important;
+    margin: 0px !important;
+    font-size: 1.5em !important;
+    font-weight: 500 !important;
+    color: #384a54 !important;
+    text-align: right !important;
+}
+
+#profile_image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50vw;
+    height: 150px;
+}
+
+#my_profile_left_content:before {
+    content: "Customer ID:"
+}
+
+#main_content > div:nth-child(1) > p > a:nth-child(3) {
+    color: #778f9b;
+}
+
+#my_profile_left_content > p {
+    display: none;
+}
+
+#my_profile_left_content > p > a > img {
+    position: relative;
+    top: 4px;
+    width: 100px;
+}
+
+#my_profile_left {
+    position: absolute !important;
+    top: -5px !important;
+    width: 90vw !important;
+    height: 100px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    z-index: 100000 !important;
+    overflow: visible !important;
+}
+
+#my_profile_left #profile_pic {
+    display: none !important;
+}
+
+/* MY PROFILE OUTSTANDING BALANCE + LAST ATTENDANCE + MANAGE BOOKINGS + CURRENT CONTRACTS */
+#my_profile_right_content {
+    position: relative;
+    display: block;
+    float: left !important;
+    width: 50vw;
+    margin-left: auto;
+    margin-left: auto;
+    line-height: 2.5em;
+    padding: 0px;
+}
+
+#my_profile_right_content h2 {
+    color: #FFF;
+    background: #607d8bd1;
+    margin-top: 20px;
+    box-shadow: 0px 5px 10px #9E9E9E;
+    padding: 10px;
+}
+
+#last_attendance, #upcoming_bookings, 
+#my_profile_right_content > .standard_table table, 
+#my_profile_right_content > div.standard_table > table:nth-child(5) {
+    background: #fff !important;
+    box-shadow: 0px 5px 10px #9E9E9E;
+    padding: 0px;
+    color: #384a54;
+    max-width: 50vw;
+}
+
+.standard_table table thead tr td, .standard_table table thead tr th {
+    background: #FFF !important;
+    color: #778f9b;
+    border-bottom: 1px solid #778f9b;
+}
+
+/* OUTSTANDING BALANCE */
+
+#dashboard_message_stack > div {
+    background: #FFC107;
+    color: #000;
+    box-shadow: 0px 5px 10px #9E9E9E;
+    border-radius: 0px;
+}
+
+.outstanding_amount, .dashboard_information a {
+    color: #000;
+}
+
+.dashboard_information a:hover {
+    font-weight: bold;
+}
+
+/* LAST ATTENDANCE */
+#my_profile_right_content #last_attendance table {
+    background: #FFF;
+}
+
+#my_profile_right_content #last_attendance table tr td {
+    border-right: 1px solid #0000001a;
+}
+
+/* MANAGE UPCOMING BOOKINGS */
+#resync > img{
+    position: relative;
+    right: 20px;
+    top: 5px;
+    height: 20px !important;
+}
+
+#my_profile_right_content #upcoming_bookings table {
+    background: #FFF;
+}
+
+#my_profile_right_content #upcoming_bookings table tr td {
+    border-right: 1px solid #0000001a;
+    border-bottom: 1px solid #0000001a;
+}
+
+#upcoming_bookings > table > tbody > tr > td:nth-child(5) {
+    border-right: none !important;
+}
+
+#upcoming_bookings > table > tbody > tr > td> a > img {
+    position: relative;
+    right: 5px;
+}
+
+/* MEMBERSHIPS & VISIT PASSES */
+.standard_table table tr:nth-child(odd) {
+    background: #FFF;
+}
+
+#my_profile_right_content > div.standard_table > table tr td {
+    border-right: 1px solid #0000001a;
+    border-bottom: 1px solid #0000001a;
+}
+
+/* MY PROFILE DASHBOARD CONTENT */
+.far_right {
+    position: relative;
+    display: block;
+    top: 10px;
+    width: 30.5vw;
+    height: auto;
+    padding: 15px;
+    background: #dce2e5;
+    margin-left: auto;
+    margin-left: auto;
+    box-shadow: 0px 5px 10px #9E9E9E;
+}
+
+div.far_right > div.customer_header, .customer_image, .customer_image img {
+    width: 30.5vw !important;
+    height: auto !important;
+    overflow: visible !important;
+    color: #384a54;
+}
+
+/* MY MESSAGES */
+
+#communication_top {
+    display: none !important;
+}
+
+#communication_messages {
+    position: absolute;
+    display: block;
+    float: left;
+    left: -5vw;
+    top: -180px;
+    width: 40vw;
+    padding: 0px;
+    text-align: center; 
+    border: 0px;
+    box-shadow: 0px 5px 10px #9E9E9E;
+}
+
+#communication_messages h2 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40vw;
+    background: #607d8bd1;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#communication_trainers h2 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40vw;
+    background: #607d8bd1;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+div.standard_form_wrapper div {
+    margin-bottom: 20px;
+}
+
+#add_message_form {
+    width: 40vw;
+}
+
+#site_member_id, #message_text {
+    width: 35vw;
+}
+
+#main_profile_pic > label, #add_message_form > div > div > label {
+    color: #384a54;
+    width: 40vw;
+}
+
+#communication_messages .message_container {
+    display: block;
+    width: 40vw;
+    background: #eee;
+}
+
+#communication_messages > div > div.message_container > div.message_profile {
+    width: 20%;
+    height: auto;
+}
+
+#communication_messages .message {
+    width: 70%;
+    float: right;
+    background: #eee;
+}
+
+#main_content #communication_trainers {
+    position: relative;
+    display: block;
+    left: -5vw;
+    top: -180px;
+    float: right;
+    width: 40vw;
+    padding: 0px;
+    text-align: center; 
+    box-shadow: 0px 5px 10px #9E9E9E;
+}
+
+#communication_trainers > ul, 
+#main_content #communication_trainers ul li,
+#main_content #communication_trainers ul li .trainer_name,
+#main_content #communication_trainers ul li img.trainer_profile {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+#main_content #communication_trainers ul li {
+    margin-bottom: 20px;
+}
+
+input[type="submit" i], 
+.button_link,
+ul.buttons li a {
+    background: #4CAF50;
+    color: #FFF;
+    border: 0px;
+    padding: 10px;
+}
+
+input[type="submit" i]:hover,
+.button_link:hover,
+ul.buttons li a:hover {
+    color: #4caf50;
+    background: #FFF;
+    border: 0px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+/* MY BOOKINGS */
+
+#booking_bookings {
+    position: relative !important;
+    top: -40px !important;
+    left: 0.5px !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto !important;
+    width: 90.1vw !important;
+    padding: 0px !important;
+    background: #dce2e5 !important;
+    z-index: 10000 !important;
+    overflow: visible !important;
+}
+
+#booking_bookings h2 {
+    color: #FFF;
+    background: #607d8bd1;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.fc-header-title {
+    display: block;
+    position: absolute;
+    top: 26px;
+    right: 0px;
+    width: 90vw;
+    margin: 0px !important;
+    box-shadow: 0px 5px 10px #9E9E9E;
+}
+
+#booking_bookings > div.rounded_button.inline_uls {
+    margin-top: 50px;
+    width: 90vw;
+    background: #607d8bd1;
+}
+ 
+
+.inline_uls ul li {
+    position: relative;
+    display: inline-block;
+    width: 90vw;
+    margin: 0 auto;
+    background: #607d8bd1;
+    float: none !important;
+}
+
+#booking_calendar {
+    display: block;
+    width: 90vw;
+}
+
+/* MY ACCOUNT */
+/*HIDE ADD CREDIT TO MY ACCOUNT BUTTON*/
+
+#local_store_bottom > div > div > div:nth-child(2) > h4 {
+display: none !important;
+}
+#local_store_bottom > div > div > div:nth-child(2) > p > a{
+display: none !important;
+}
+#local_store_bottom > div > div > div:nth-child(2) > p {
+display: none !important;
+}
+
+#local_store_bottom, #local_store_bottom > div  {
+    padding: 0px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#local_store_bottom h2 {
+    width: 90vw;
+    color: #FFF !important;
+    background: #778f9b;
+    box-shadow: 0px 5px 10px #9E9E9E;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: 0 auto !important;
+    font-size: 1.2em;
+}
+
+h4 {
+    color: #384a54 !important;
+    font-size: 1.0em;
+}
+
+#local_store_bottom > div > div > div {
+    width: 25vw !important;
+    padding: 15px;
+    box-shadow: 0px 5px 10px #9E9E9E;
+    margin-right: auto;    
+    font-size: 1.1em;
+}
+
+/* PURCHASE HISTORY */
+#workout_container {
+    padding: 0px;
+}
+#workout_container h2 {
+    width: 90vw;
+    color: #FFF !important;
+    background: #778f9b;
+    box-shadow: 0px 5px 10px #9E9E9E;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#account_statement {
+    text-align: center !important;
+    width: 90vw;
+}
+
+#workout_log_view {
+    margin-top: 30px;
+    width: 90vw;
+    height: auto;
+}
+
+#workout_log_view table thead tr td, #workout_log_view table thead tr th {
+    background: #FFF;
+    color: #778f9b;
+    border-right: 1px solid #0000001a;
+    border-bottom: 1px solid #0000001a;
+    font-size: 1.0em;
+}
+
+#workout_log_view table tr:nth-child(odd) {
+    background: #FFF;
+    
+}
+
+#account_statement > div > table > tbody > tr > td {
+    border-right: 1px solid #0000001a;
+}
+
+
+/* FOOTER */
+#footer_wrapper, #footer {
+    display: none:
+}
