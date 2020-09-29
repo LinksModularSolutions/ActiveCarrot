@@ -1,0 +1,4 @@
+#admin_wrapper > form > div:after{
+   content: "\A By accepting these terms of use, you agree to Active Monash \A terms and conditions and privacy policy.";
+   white-space: pre;
+}
