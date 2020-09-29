@@ -1,0 +1,12 @@
+#booking_confirm_class_form > div.standard_table.payment_form > table > tbody:after {
+  content: "By clicking confirm, I agree to Active Monash terms and conditions and privacy policy.";
+  display: block;
+  position: relative;
+  bottom: 130px;
+  font-weight: bold;
+}
+
+#confirm_submit {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
