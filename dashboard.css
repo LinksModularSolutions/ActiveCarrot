@@ -23,14 +23,14 @@ body {
         padding-left: 5vw;
     padding-right: 5vw;
     height: auto;
-    background: #dce2e5;
+    background: #FFF;
     margin: 0 auto !important;
 }
 
 #header {
     position: absolute;
     display: block !important;
-    background: #dce2e5;
+    background: #eee;
     padding: 0px;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -159,7 +159,7 @@ ul.dropdown li a:hover {
     height: auto;
     width: 90.1vw;
     padding: 0px !important;
-    background: #dce2e5;
+    background: #FFF;
     z-index: 10000;
     overflow: visible;
 }
@@ -255,7 +255,7 @@ h2 {
 
 #my_profile_right_content h2 {
     color: #FFF;
-    background: #607d8bd1;
+    background: #136990b0;
     margin-top: 20px;
     box-shadow: 0px 5px 10px #9E9E9E;
     padding: 10px;
@@ -273,8 +273,8 @@ h2 {
 
 .standard_table table thead tr td, .standard_table table thead tr th {
     background: #FFF !important;
-    color: #778f9b;
-    border-bottom: 1px solid #778f9b;
+    color: #136990b0;
+    border-bottom: 1px solid #136990b0;
 }
 
 /* OUTSTANDING BALANCE */
@@ -288,6 +288,10 @@ h2 {
 
 .outstanding_amount, .dashboard_information a {
     color: #000;
+}
+
+.dashboard_information a {
+    font-weight: 700;
 }
 
 .dashboard_information a:hover {
@@ -347,7 +351,7 @@ h2 {
     width: 30.5vw;
     height: auto;
     padding: 15px;
-    background: #dce2e5;
+    background: #eeeeee;
     margin-left: auto;
     margin-left: auto;
     box-shadow: 0px 5px 10px #9E9E9E;
@@ -357,7 +361,7 @@ div.far_right > div.customer_header, .customer_image, .customer_image img {
     width: 30.5vw !important;
     height: auto !important;
     overflow: visible !important;
-    color: #384a54;
+    color: #5c97b2;
 }
 
 /* MY MESSAGES */
@@ -389,7 +393,7 @@ div.far_right > div.customer_header, .customer_image, .customer_image img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 40vw;
-    background: #607d8bd1;
+    background: #136990b0;
     color: #FFF;
     font-size: 1.3em;
     font-weight: 600;
@@ -405,7 +409,7 @@ div.far_right > div.customer_header, .customer_image, .customer_image img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 40vw;
-    background: #607d8bd1;
+    background: #136990b0;
     color: #FFF;
     font-size: 1.3em;
     font-weight: 600;
@@ -512,7 +516,7 @@ ul.buttons li a:hover {
 
 #booking_bookings h2 {
     color: #FFF;
-    background: #607d8bd1;
+    background: #136990b0;
     margin-top: 20px;
     margin-bottom: 0px;
 }
@@ -530,7 +534,7 @@ ul.buttons li a:hover {
 #booking_bookings > div.rounded_button.inline_uls {
     margin-top: 50px;
     width: 90vw;
-    background: #607d8bd1;
+    background: #136990b0;
 }
  
 
@@ -539,7 +543,7 @@ ul.buttons li a:hover {
     display: inline-block;
     width: 90vw;
     margin: 0 auto;
-    background: #607d8bd1;
+    background: #136990b0;
     float: none !important;
 }
 
