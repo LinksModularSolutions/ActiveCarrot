@@ -1,0 +1,492 @@
+/* ACTIVE MONASH LOGIN */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: none !important;
+    box-shadow: none;
+}
+
+body {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px !important;
+    overflow-x: hidden;
+    background: #FFF;
+}
+
+
+#LoginForm {
+    max-width: 400px;
+    width: 70vw;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px !important;
+    grid-template-areas: 'left' 'right';
+}
+
+#LoginForm > button.ExistingLogin {
+  border: 0px;
+  border-radius: 0px;
+  background: #092f57;
+  color: #efefef;
+}
+
+
+#LoginForm > button.ExistingLogin:hover {
+    cursor:pointer;
+    background:#efefef !important;
+    color: #092f57;
+    transition: ease-out 0.3s;
+}
+
+
+#LoginForm > button.NewSignup {
+    border: 0px;
+    border-radius: 0px;
+    color: #092f57;
+}
+
+#LoginForm > button.NewSignup:hover {
+    cursor:pointer;
+    background:#092f57 !important;
+    transition: ease-out 0.3s;
+    color: #efefef;
+}
+
+#LoginForm > button.NewSignup:focus:not(:focus-visible),
+#LoginForm > button.ExistingLogin:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
+}
+
+#ProspectIframe {
+    display: none;
+}
+
+#ProspectIframe > p2 {
+  display: block;
+   width: 70vw;
+   max-width: 400px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#CreateProspect  {
+    display: block;
+    width: 70vw;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 38px;
+    border: 0px;
+    margin-top: 30px;
+    background: #00863e  !important;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.0em;
+}
+
+#CreateProspect:hover {
+    cursor:pointer;
+    background:#026530 !important;
+    transition: ease-out 0.3s;
+}
+
+#CreateProspect:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
+}
+
+#CreateProspect:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
+}
+
+
+#admin_wrapper > div.customer_login_message {
+    display: block !important;
+    position: absolute;
+    top: 100px;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.1em;
+    color: #59595b;
+    margin-bottom: 0px;
+}
+
+#admin_wrapper > div.customer_login_message p1 {
+  color: #092f57;
+  font-weight: 700;
+}
+
+#admin_wrapper {
+    position: absolute;
+    display: grid;
+    grid-template-columns: [first] 100vw;
+    grid-template-rows: 20% 10% 10% 10%;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 0px;
+    text-align: center;
+}
+
+#admin_wrapper > form > div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70vw !important;
+  text-align: center;
+  max-width: 500px;
+}
+
+#admin_wrapper > form > div.login_custom_html:after {
+  display: none;
+}
+
+#admin_wrapper > form > div:after{
+   content: "\A By accepting these terms of use, you agree to Active Monash \A terms and conditions and privacy policy.";
+   white-space: pre;
+}
+
+
+#admin_wrapper > form > div.forgot_password {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 0px !important;
+  max-width: 400px;
+  width: 70vw !important;
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+#admin_wrapper > form > div.forgot_password::after{display: none;}
+
+#admin_wrapper > form > div.forgot_password > p {
+  margin: 0px !important;
+}
+
+
+#logo {
+    display: block;
+    background: url('https://secure.activecarrot.com/media/dynamic/static_images/412/active-monash-logo-blue.png') no-repeat center;
+    background-size: 15em;
+    background-color: #092f57;
+    width: 100vw;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    z-index: 90 !important;
+}
+
+#site {
+    display: block;
+    width: 100vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+form {
+    display: block;
+    position: absolute;
+    top: 210px;
+    width: 100vw;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+form p {
+    background: transparent;
+    width: 70vw;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label {
+    background: transparent;
+    color: #092f57;
+    width: 70vw;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+    line-height: 2vw;
+}
+
+form .input {
+    background: transparent !important;
+    border: 1px solid #000;
+    width: 70vw;
+    max-width: 395px;
+    height: 2vw;
+    min-height: 50px;
+    line-height: 2.0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5px;
+    font-size: 0.8em;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #59595b;
+  box-shadow: 0 0 0px 1000px #fff inset !important;
+  background: transparent !important;
+  height: 4vw;
+  text-indent: 20px;
+  min-height: 50px;
+  max-height: 70px;
+  line-height: 2.0%;
+}
+
+
+form p a {
+    width: 70vw;
+    max-width: 400px;
+    height: 55px;
+    color: #092f57;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.0em !important;
+}
+
+form p a:hover {
+    text-decoration: underline;
+    transition: ease-out 0.3s !important;
+}
+
+form p #text {
+  background: yellow !important;
+}
+
+a[href*="/login/first_login_alternate/584"]  {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3.5em;
+    max-width: 400px !important;
+    padding: 0.5em 1.0em;
+    border-radius: 35px;
+    border: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #00863e  !important;
+    background-color: #00863e  !important;
+    color: #FFF;
+    font-size: 1.1em;
+}
+
+#button:hover {
+    cursor:pointer;
+    background:#026530 !important;
+    transition: ease-out 0.3s;
+}
+
+
+
+#admin_wrapper > form[action="/login/complete_login/584"] h2 {
+  color: #092f57 !important;
+  position: absolute;
+  display: block;
+  top: -100px !important;
+  width: 70vw;
+  height: 50px !important;
+}
+
+#button {
+    display: grid;
+    grid-area: bottom;
+    width: 70vw;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-radius: 35px;
+    border: 0px;
+    height: 55px;
+    margin-top: 0px;
+    background: #00863e  !important;
+    background-color: #00863e  !important;
+    font-size: 1.1em;
+}
+
+#button:hover {
+    cursor:pointer;
+    background:#026530 !important;
+    transition: ease-out 0.3s;
+}
+
+form .button:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
+}
+
+#admin_wrapper h2  {
+  position: relative;
+  top: 50px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 50vw;
+  width: 100vw;
+  height: 1.2em;
+  text-align: center;
+}
+
+h2, #admin_wrapper h3 {
+    position: absolute;
+    top: 120px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: #092f57;
+    font-weight: 600 !important;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.0em;
+    max-width: 70vw;
+    height: 150px !important;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#login_footer {
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  width: 100vw;
+  line-height: 3.2em;
+}
+
+.attention, .fail, .information, .success {
+    position: absolute;
+    top: 180px;
+    left: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    text-align: center;
+    font-size: 0.9em;
+    width: 70vw;
+    border: 0px;
+    color: #FFF;
+    background: #ff3939db;
+}
+
+@media all and (max-width: 580px)  {
+
+form, form p, form label, form .input
+ {
+    width: 100vw;
+}
+
+#admin_wrapper > form > div.forgot_password  {
+  width: 100vw !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button {
+  width: 92vw;
+}
+
+#admin_wrapper h2  {
+  font-size: 0.7em;
+  max-width: 100vw;
+  left: 0px;
+}
+
+
+#LoginForm,form {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#LoginForm {
+  max-height: 4em;
+}
+
+#LoginForm > div.ExistingLogin > h8,
+#LoginForm > div.NewSignup > h8 {
+    width: 100%;
+    font-size: 0.9em;
+}
+
+#LoginForm > div.ExistingLogin > h8 {
+    float: right;
+}
+
+#LoginForm > div.NewSignup > h8 {
+    float: left;
+}
+
+#logo {
+    background-size: 20em;
+}
+
+form label, form .input, form p a {
+    height: 10vw;
+        line-height: 4vw;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #59595b;
+  -webkit-box-shadow: 0 0 0px 10px #FFF inset;
+  height: 3vw;
+  line-height: 1.0%;
+}
+
+#admin_wrapper > form[action="/login/complete_login/584"] h2 {
+  color: #092f57 !important;
+  position: absolute;
+  display: block;
+  top: -80px !important;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.0em;
+}
+
+}
+#login_password {
+display: block !important
+}
