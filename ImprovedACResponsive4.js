@@ -22,6 +22,8 @@ $("h2:contains('Class Progress')").addClass("page_heading");
 $("h2:contains('My Bookings')").addClass("page_heading");
 $("h2:contains('Casual Entries')").addClass("page_heading");
 $("#main_content > div.three_quarters > h2").addClass("page_heading");
+$("h2:contains('My Purchase History')").html("My Purchase History");
+$("h2:contains('My Purchase History')").addClass("page_heading");
 
 
 
