@@ -11,6 +11,8 @@ if (location.pathname.indexOf('customer/dashboard') === 1) {
 
 /*DECLARE AT DASHBOARD*/
 $("p:contains('Logged in as:')").addClass("loggedInDetails");
+$("div:contains('Last Attendance')").addClass("dashboardContent");
+$("h2:contains('My Account')").addClass("page_heading");
 
 
 /*Change input type at non responsive public memberships*/
