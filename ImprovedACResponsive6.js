@@ -34,3 +34,12 @@ $("h2:contains('Pay my account')").addClass("page_heading");
 /*Change input type at non responsive public memberships*/
 $(".contract_radio").prop('type', 'button');
 $(".contract_radio").val('Sign Up');
+
+
+
+/*Read-Only Facilities on XML Calls */
+$('body').append('<div class="facilityGrouping"></div>');
+$('.facilityGrouping').load('https://qat.activecarrot.net/public/facility/browse_raw/1205/1049.xml, group_desc');
+
+$('body').append('<div class="facilityDescription"></div>');
+$('.facilityDescription').load('https://qat.activecarrot.net/public/facility/browse_raw/1205/1049.xml, description');
